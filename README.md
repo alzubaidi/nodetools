@@ -1,4 +1,4 @@
-<i class="icon-cog"></i> NodeTools <i class="icon-cog"></i>
+<i class="icon-cog"></i> NodeTools <i class="icon-cog"></i> [![Build Status](https://travis-ci.org/alzubaidi/nodetools.svg?branch=master)](https://travis-ci.org/alzubaidi/nodetools)
 ===================
 
 
