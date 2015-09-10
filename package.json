@@ -1,5 +1,5 @@
 {
-  "name": "ntools",
+  "name": "nodetools",
   "version": "1.0.0",
   "description": "Node.js based tools package.",
   "author": "Tareq Al-Zubaidi <tareqzubidee@gmail.com>",
@@ -9,7 +9,7 @@
   },
   "directories":{"test":"./test","lib":"./lib"},
   "devDependencies": { "test": ">=0.0.5" },
-  "repository": "alzubaidi/ntools",
+  "repository": "alzubaidi/nodetools",
   "keywords": [
     "node.js",
     "tools",
