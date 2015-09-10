@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "Node.js based tools package.",
   "author": "Tareq Al-Zubaidi <tareqzubidee@gmail.com>",
-  "main": "index.js",
+  "main": "lib/tools.js",
   "scripts": {
-    "test": "npm test"
+    "test": "node test/*.js"
   },
+  "directories":{"test":"./test","lib":"./lib"},
+  "devDependencies": { "test": ">=0.0.5" },
   "repository": "alzubaidi/ntools",
   "keywords": [
     "node.js",
@@ -18,5 +20,8 @@
     "url decode",
     "url encode"
   ],
+   "bugs": {
+    "url": "https://github.com/alzubaidi/ntools/issues"
+  },
   "license": "BSD"
 }
