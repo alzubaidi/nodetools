@@ -1,0 +1,22 @@
+{
+  "name": "ntools",
+  "version": "1.0.0",
+  "description": "Node.js based tools package.",
+  "author": "Tareq Al-Zubaidi <tareqzubidee@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": "alzubaidi/ntools",
+  "keywords": [
+    "node.js",
+    "tools",
+    "md5",
+    "sha1",
+    "base64 encode",
+    "base64 decode",
+    "url decode",
+    "url encode"
+  ],
+  "license": "BSD"
+}
