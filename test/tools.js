@@ -1,4 +1,4 @@
-exports['test that logs all failures'] = function(assert) {
+exports['test nodetools functions'] = function(assert) {
 	var tools = require('../lib/tools');
 
 	assert.equal(true, tools.isNumeric(1), 'Test numeric');
