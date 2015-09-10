@@ -1,15 +1,15 @@
-<i class="icon-cog"></i> Ntools <i class="icon-cog"></i>
+<i class="icon-cog"></i> NodeTools <i class="icon-cog"></i>
 ===================
 
 
-Ntools is a package that provides set of commonly used functionality such as hashing and encoding.
+NodeTools is a package that provides set of commonly used functionality such as hashing and encoding.
 
 
 Installation
 -------------
 Add the following to *package.json* under *dependencies* section:
 
-    "ntools": "1.0.0"
+    "nodetools": "1.0.0"
 
 
 Functionality 
