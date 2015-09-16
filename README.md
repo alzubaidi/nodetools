@@ -9,7 +9,7 @@ Installation
 -------------
 Add the following to *package.json* under *dependencies* section:
 
-    "nodetools": "1.0.0"
+    "nodetools": "0.0.1"
 
 
 Functionality 
