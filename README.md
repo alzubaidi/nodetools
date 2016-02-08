@@ -14,7 +14,7 @@ Add the following to *package.json* under *dependencies* section:
 
 Functionality 
 -------------
-Currently, the below functions are supported. more the come in the future.
+Currently, the below functions are supported. more to come in the future.
 
  - MD5: `hash(str, 'md5');` or `hash(str);` 
  - SHA1: `hash(str, 'sha1');`
@@ -30,7 +30,7 @@ Example
 -------------
 
 ```javascript
-var ntools = require('ntools');
+var ntools = require('nodetools');
     
 console.log(ntools.hash('a')); // MD5 by default
 console.log(ntools.hash('a', 'sha1')); // SHA1
