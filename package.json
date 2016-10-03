@@ -1,14 +1,19 @@
 {
   "name": "nodetools",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node.js based tools package.",
   "author": "Tareq Al-Zubaidi <tareqzubidee@gmail.com>",
   "main": "lib/tools.js",
   "scripts": {
     "test": "node test/*.js"
   },
-  "directories":{"test":"./test","lib":"./lib"},
-  "devDependencies": { "test": ">=0.0.5" },
+  "directories": {
+    "test": "./test",
+    "lib": "./lib"
+  },
+  "devDependencies": {
+    "test": ">=0.0.5"
+  },
   "repository": "alzubaidi/nodetools",
   "keywords": [
     "node.js",
@@ -22,8 +27,11 @@
     "isset",
     "is numeric"
   ],
-   "bugs": {
+  "bugs": {
     "url": "https://github.com/alzubaidi/nodetools/issues"
   },
-  "license": "BSD"
+  "license": "BSD",
+  "dependencies": {
+    "mime-types": "^2.1.12"
+  }
 }

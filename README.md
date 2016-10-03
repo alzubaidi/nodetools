@@ -7,16 +7,16 @@ NodeTools is a package that provides set of commonly used functionality such as 
 
 Installation
 -------------
-Add the following to *package.json* under *dependencies* section:
+Using command line
 
-    "nodetools": "0.0.1"
+    npm i --save nodetools
 
 
-Functionality 
+Functionality
 -------------
 Currently, the below functions are supported. more to come in the future.
 
- - MD5: `hash(str, 'md5');` or `hash(str);` 
+ - MD5: `hash(str, 'md5');` or `hash(str);`
  - SHA1: `hash(str, 'sha1');`
  - SHA256: `hash(str, 'sha256');`
  - SHA512: `hash(str, 'sha512');`
@@ -25,18 +25,19 @@ Currently, the below functions are supported. more to come in the future.
  - Base64 encode/decode: `base64Encode(str);` and `base64Decode(str);`
  - Check if variable is set: `isSet(var);`
  - URL encode/decode: `urlEncode(str);` and `urlDecode(str);`
+ - Detect mime-type: `detectType(str);`
 
-Example 
+Example
 -------------
 
 ```javascript
 var ntools = require('nodetools');
-    
+
 console.log(ntools.hash('a')); // MD5 by default
 console.log(ntools.hash('a', 'sha1')); // SHA1
 console.log(ntools.base64Encode('a')); // Base64 encode
-
+console.log(ntools.detectType('json')); // application/json
 ```
-Issues ? 
+Issues ?
 -------------
 https://github.com/alzubaidi/ntools/issues
