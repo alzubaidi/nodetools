@@ -14,6 +14,7 @@
   "devDependencies": {
     "test": ">=0.0.5"
   },
+  "engines" : { "node" : ">=4.3.2" },
   "repository": "alzubaidi/nodetools",
   "keywords": [
     "node.js",
