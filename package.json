@@ -26,7 +26,12 @@
     "url decode",
     "url encode",
     "isset",
-    "is numeric"
+    "is numeric",
+    "mime-type",
+    "mime",
+    "hash",
+    "encode",
+    "decode"
   ],
   "bugs": {
     "url": "https://github.com/alzubaidi/nodetools/issues"
