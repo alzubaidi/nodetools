@@ -38,6 +38,18 @@ console.log(ntools.hash('a', 'sha1')); // SHA1
 console.log(ntools.base64Encode('a')); // Base64 encode
 console.log(ntools.detectType('json')); // application/json
 ```
+
+-------------
+If you have ES6 support:
+```javascript
+import { hash, base64Encode, detectType } from 'nodetools';
+
+console.log(hash('a')); // MD5 by default
+console.log(hash('a', 'sha1')); // SHA1
+console.log(base64Encode('a')); // Base64 encode
+console.log(detectType('json')); // application/json
+```
+
 Issues ?
 -------------
 https://github.com/alzubaidi/ntools/issues
