@@ -6,6 +6,7 @@
   "main": "lib/tools.js",
   "scripts": {
     "postinstall": "npm run build",
+    "prepublish": "npm run build",
     "test": "mocha --require babel-core/register test/*.spec.js",
     "build": "babel src --out-dir lib",
     "build:watch": "babel src --watch --out-dir lib"
