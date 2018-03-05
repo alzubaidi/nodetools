@@ -1,9 +1,6 @@
 language: node_js
 node_js:
 - 4.3.2
-install:
-  - npm install -g babel-cli babel-preset-env babel-core
-  - npm install
 deploy:
   provider: npm
   email: tareqzubidee@gmail.com
