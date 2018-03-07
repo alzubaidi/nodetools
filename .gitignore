@@ -9,5 +9,5 @@ coverage
 .grunt
 .lock-wscript
 build/Release
-node_modules
+node_modules/
 lib/

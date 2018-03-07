@@ -5,14 +5,15 @@
   "author": "Tareq Al-Zubaidi <tareqzubidee@gmail.com>",
   "main": "lib/tools.js",
   "scripts": {
-    "prepublishOnly": "npm run build",
+    "prepublish": "npm run build",
     "test": "mocha --require babel-core/register test/*.spec.js",
     "build": "babel src --out-dir lib",
     "build:watch": "babel src --watch --out-dir lib"
   },
   "directories": {
     "test": "./test",
-    "lib": "./src"
+    "lib": "./lib",
+    "src": "./src"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
